@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "LukaKnezevic";
+  src: url("LukaKnezevic.ttf") format("truetype");
+	font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", sans-serif;
+  background-image: url("pozadina.jpg");
+  background-size: contain;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.okvir {
+  background-color: rgba(176, 224, 230, 0.75);
+  color: #000;
+  width: 70%;
+  max-width: 800px;
+  margin-top: 50px;
+  padding: 40px;
+  border-radius: 30px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  font-family: sans-serif;
+}
+
+.okvir h1 {
+  font-family: "LukaKnezevic";
+  margin: 0;
+  font-size: 5rem;
+  text-align: center;
+}
+
+.okvir h2 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.okvir p {
+  margin-top: 15px;
+  font-size: 1.1rem;
+  opacity: 0.9;
+  line-height: 1.6;
+}
